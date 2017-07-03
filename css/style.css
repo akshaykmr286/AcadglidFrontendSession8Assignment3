@@ -1,0 +1,43 @@
+
+/*
+styling the main div with some padding margin aand color
+*/
+#maindiv{
+    background-color: azure;
+    width: 500px;
+    border: 2px solid orange;
+    padding: 10px;
+    margin: 10% 31% 10%;
+}
+/*
+styling the result session
+*/
+h4,h5{
+    color: brown;
+}
+
+/*
+Styling the Form elemnts and divs input boxes starts here
+*/
+form{
+    padding: 10px;
+}
+form div{
+    margin: 10px;
+}
+
+form input[id=email]{
+    margin-left: 38px;
+}
+form input[id=lname]{
+    margin-left: 4px;
+}
+form input[id=age]{
+    margin-left: 60px;
+}
+form input[id=ph]{
+    margin-left: 41px;
+}
+/*
+Styling for inputs ends here
+*/
