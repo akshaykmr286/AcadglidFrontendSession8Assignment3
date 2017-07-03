@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Session8 Ass3</title>
+        <!-- modify the style.css inside css folder -->
+        <link rel="stylesheet" href="css/style.css">
+        
+        <!-- Jquery library including section ,starts here-->
+         <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+          <link rel="stylesheet" href="/resources/demos/style.css">
+        <!-- Jquery UI library ends here-->
+        
+        <!-- Include the script files for Jquery -->
+          <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+          <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        
+        <!-- IIFE in Jquery for including tooltip -->
+          <script>
+          $( function() {
+            $( document ).tooltip();
+          } );
+          </script>
+    </head>
+    <body>
+        <!-- Main Div started-->
+        <div id="maindiv">
+            <h2>Helpful Notes in Form Inputs Using Jquery tooltip() : </h2><hr>
+            <br>
+            <h5>
+                NOTE : Mouseover on the input boxes to se the help text.
+            </h5>
+            <!-- this button will call function to increment the global varible three times-->
+            <div>
+                <form>
+                    <p id="helptext"></p>
+                    <div>
+                         E-MAIL : <input type="email" name="email" id="email" title="Enter your email Id in this field" />
+                    </div>
+                    <div>
+                        FIRST NAME : <input type="text" name="fname" id="fname" title="Please Write your First Name"/>
+                    </div>
+                    <div>
+                        LAST NAME : <input type="text" name="lname" id="lname" title="Please Write your Last Name"/>
+                    </div>
+                    <div>
+                        PHONE :  <input type="number" name="ph" id="ph" title="Please write your 10 digit phone number"/>
+                        
+                    </div>
+                    <div>
+                         AGE :  <input type="number" name="age" id="age" title="Please write your age as per identity card"/>
+                        
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- javascript codes are written in main.js file of js folder -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
